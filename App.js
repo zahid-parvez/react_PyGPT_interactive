@@ -4,7 +4,7 @@ import './index.css';
 
 function App() {
   const configuration = new Configuration({
-    apiKey: "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",
+    apiKey: "<<Enter you openai API key here>>",
   });
   const openai = new OpenAIApi(configuration);
 
