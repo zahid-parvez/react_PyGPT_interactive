@@ -1,0 +1,135 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: url("https://miro.medium.com/max/1024/1*hzI4ckOb6LS2dq4xN18_Yg.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-color: #52527a;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.container {
+  margin: 123px;
+  height: 234px;
+  flex:1;
+  flex-direction: column;
+}
+
+.textarea {
+  width: 50%;
+  height: 50%;
+  border: solid #52527a 1.5px;
+  border-radius: 5px;
+}
+
+.textarea:focus {
+  border: solid #52527a 1.5px;
+}
+
+.textarea:active {
+  border: solid #52527a 1.5px;
+}
+
+.textarea:hover {
+  border: solid #52527a 2px;
+}
+
+.btn{
+  border-radius: 15px;
+  margin: 5.7%;
+  height:33px ;
+}
+
+.btn{
+  width: 180px;
+  height: 40px;
+  background: #52527a;
+  border: 2px solid #52527a;
+  margin-top: 13px;
+  color: #fff;
+  font-size: 15px;
+  transition: 0.2s ease;
+  cursor: pointer;
+}
+.btn:hover{
+  border: 2px solid #fff;
+  color: #000;
+}
+
+.btn:focus{
+  outline: none;
+}
+.result{
+  border:solid 3px #52527a;
+  border-radius: 8px;
+  width: 50%;
+  margin-left: 10px;
+  background-color: grey;
+  color: white !important;
+  width: fit-content;
+  height: fit-content;
+  align-self: center;
+}
+
+a{
+  text-decoration: none;
+}
+
+footer{
+  background-color: #272727;
+  text-align: center;
+  text-transform: uppercase;
+  padding-top: 30px;
+  margin-top: 170px;
+  border-radius: 10px;
+}
+
+footer li{
+  list-style: none;
+  margin: 10px;
+  display: inline-block;
+}
+
+.icons a{
+  background: #52527a;
+  color: #272727;
+  padding: 14px;
+  font-size: 20px;
+  border-radius: 100%;
+  display: flex;
+}
+.icons a:hover{
+  color: #ffffff;
+  transition: 0.5s;
+}
+
+.menu a{
+  color: #ffffff;
+  text-transform: capitalize;
+}
+.menu a:hover{
+  color: #52527a;
+  transition: 0.5s;
+}
+
+.footer-copyright{
+  background-color:#52527a;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  color: #ffffff;
+  padding: 15px;
+  margin-top: 30px;
+  text-transform: capitalize;
+}
+
+.footer-copyright p{
+  margin-bottom: 0px;
+}
