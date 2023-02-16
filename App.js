@@ -5,6 +5,7 @@ import './index.css';
 function App() {
   const configuration = new Configuration({
     apiKey: "<<Enter you openai API key here>>",
+    // or u can use process.env to get the key from .env file
   });
   const openai = new OpenAIApi(configuration);
 
